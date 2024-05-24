@@ -1,0 +1,43 @@
+﻿@model ActorModel
+<h4>Actor</h4>
+<hr />
+<dl class="row">
+    <dt class="col-2">
+        @Html.DisplayNameFor(model => model.FullNameOutput)
+    </dt>
+    <dd class="col-10">
+        @Html.DisplayFor(model => model.FullNameOutput)
+    </dd>
+</dl>
+<dl class="row">
+    <dt class="col-2">
+        @Html.DisplayNameFor(model => model.BirthDateOutput)
+    </dt>
+    <dd class="col-10">
+        @Html.DisplayFor(model => model.BirthDateOutput)
+    </dd>
+</dl>
+<dl class="row">
+    <dt class="col-2">
+        @Html.DisplayNameFor(model => model.IsActiveOutput)
+    </dt>
+    <dd class="col-10">
+        @Html.DisplayFor(model => model.IsActiveOutput)
+    </dd>
+</dl>
+<dl class="row">
+    <dt class="col-2">
+        @Html.DisplayNameFor(model => model.ScoreOutput)
+    </dt>
+    <dd class="col-10">
+        @Html.DisplayFor(model => model.ScoreOutput)
+    </dd>
+</dl>
+<dl class="row">
+    <dt class="col-2">
+        @Html.DisplayNameFor(model => model.MovieNamesOutput)
+    </dt>
+    <dd class="col-10">
+        @Html.Raw(Model.MovieNamesOutput)
+    </dd>
+</dl>
